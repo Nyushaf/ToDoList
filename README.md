@@ -20,7 +20,7 @@
     <br />
     <br />
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://nyushaf-to-do-list.netlify.app/">View Demo</a>
     ·
   </p>
   <a name="readme-top"></a>

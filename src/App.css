@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+body {
+  background-image: url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App, .header {
+  display: flex;
+  justify-content: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  margin-top: 25px;
+  width: 85%;
+  height: 650px;
+  background-color: rgba(167, 155, 155, 0.51);
+  border-radius: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.container-input, .container-list {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+input {
+  width: 95%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  font-family: 'Noto Sans JP', sans-serif;
+  border: solid 2px rgba(0, 0, 0, 0.385);
+}
+button {
+  margin-top: 30px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 5px;
+  width: 50%;
+  border: solid 2px rgba(0, 0, 0, 0.385);
   color: white;
+  text-shadow: 1px 1px black;
 }
-
-.App-link {
-  color: #61dafb;
+.btn-add {
+  background-color: rgb(10, 187, 10);
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-clear {
+  background-color: #ff0000;
+}
+.crossed {
+  text-decoration: line-through 4px rgb(10, 187, 10);
+  background-color: #f3df795a;
+  border-radius: 15px;
+  -webkit-text-decoration-line: line-through;
+  -webkit-text-decoration-color: rgb(10, 187, 10);
+  -webkit-text-decoration-thickness:4px;
+}
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 25px;
+}
+h1 {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: rgb(255, 255, 17);
+  text-shadow: 2px 2px black;
+  font-size: 35px;
 }

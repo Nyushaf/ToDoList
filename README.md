@@ -16,7 +16,7 @@
   <p align="center">
     The awesome project for accounting tasks for the day!
     <br />
-    <a href="https://github.com/Nyushaf/ToDoList.git"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Nyushaf/ToDoList/tree/main/src"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     ·

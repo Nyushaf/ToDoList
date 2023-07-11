@@ -44,7 +44,7 @@ button {
   padding: 5px;
   width: 50%;
   border: solid 2px rgba(0, 0, 0, 0.385);
-  color: white;
+  color: rgb(250, 246, 246);
   text-shadow: 1px 1px black;
 }
 .btn-add {

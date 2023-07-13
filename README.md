@@ -67,7 +67,7 @@ What can you do:
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+The following tools were used to create this project:
 
 * <img height="32" width="32" src="https://cdn.simpleicons.org/react" />
 * <img height="32" width="32" src="https://cdn.simpleicons.org/javascript" />

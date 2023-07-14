@@ -96,7 +96,7 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Change parametrs CSS
+Change parametrs [CSS](https://github.com/Nyushaf/ToDoList/blob/d95d86720687e54a7dab4ce2f40f13d1455a1037/src/App.css#L1-L77)
    <img src="image/ToDoListCode.jpg" alt="screen">
    
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
